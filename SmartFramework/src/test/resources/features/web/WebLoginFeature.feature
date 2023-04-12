@@ -1,5 +1,6 @@
 Feature: Login to Application
 
+@Web
 Scenario: Login using Valid Credentials
 Given Open Browser and Navigate to URL "https://www.saucedemo.com/"
 And Enter Username as "standard_user"
